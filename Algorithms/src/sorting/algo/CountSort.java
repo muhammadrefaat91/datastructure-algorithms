@@ -8,7 +8,7 @@ public class CountSort {
 		int unsortedArray[] = {9,6,4,5,3,2,1,7,8};
 		int result [] = new int[unsortedArray.length];
 		int count[] = new int[unsortedArray.length];
-		Arrays.fill(count, 0);
+		
 		
 		for (int i = 0; i < unsortedArray.length; i++) {
 			int repeat = count[unsortedArray[i]-1];
